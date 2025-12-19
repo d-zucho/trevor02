@@ -38,7 +38,7 @@ const Header = () => {
         </div>
 
         {/* RIGHT -- Buttons */}
-        <div className='flex items-center ml-auto mr-10 gap-6'>
+        <div className='flex items-center ml-auto gap-6'>
           <Link href={'/'} className={buttonVariants({ variant: 'outline' })}>
             Contact Me
           </Link>
@@ -49,7 +49,7 @@ const Header = () => {
             Book Now
           </Link>
         </div>
-        <div className='block md:hidden'>
+        <div className='flex items-center md:hidden'>
           <MobileNav />
         </div>
       </MaxWidthWrapper>
