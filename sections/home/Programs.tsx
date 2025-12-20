@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 const Programs = () => {
   return (
-    <section className='py-24 w-full'>
+    <section className='py-24 w-full bg-linear-to-br from-dark-bg to-dark-card via-dark-card'>
       <MaxWidthWrapper>
         <div className='flex flex-col gap-4 mt-5 justify-center items-center'>
         <Badge className='mx-auto text-center'>Training Programs</Badge>

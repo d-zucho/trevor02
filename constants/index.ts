@@ -1,5 +1,5 @@
-import { THeroCard, TNavLink, TProgramCard } from '@/lib/types'
-import { Brain, BrainIcon, Dumbbell, Flame, HeartPulse, PersonStanding, Venus } from 'lucide-react'
+import { TAboutCard, THeroCard, TNavLink, TProgramCard } from '@/lib/types'
+import { Brain, BrainIcon, Dumbbell, Flame, HeartPulse, Medal, PersonStanding, ShieldCheck, Venus } from 'lucide-react'
 
 export const NAV_LINKS: TNavLink[] = [
   { label: 'Home', href: '/' },
@@ -72,5 +72,18 @@ export const PROGRAM_CARDS: TProgramCard[] = [
     icon: Venus,
     iconFill: 'transparent',
     className: 'from-pink-500 to-purple-600 '
+  }
+]
+
+export const ABOUT_CARDS: TAboutCard[] = [
+  {
+    icon: ShieldCheck,
+    title: 'Certified Expert',
+    description: 'NASM, ACE, ISSA Certified',
+  },
+  {
+    icon: Medal,
+    title: 'Award Winner',
+    description: 'Top Trainer 2022, 2023',
   }
 ]

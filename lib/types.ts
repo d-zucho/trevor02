@@ -20,3 +20,9 @@ export type TProgramCard = {
   className?: string
   popular?: boolean
 }
+
+export type TAboutCard = {
+  icon: LucideIcon
+  title: string
+  description: string
+}
