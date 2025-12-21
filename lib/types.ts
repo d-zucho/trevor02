@@ -26,3 +26,10 @@ export type TAboutCard = {
   title: string
   description: string
 }
+
+export type TTestimonial = {
+  quote: string
+  name: string
+  designation: string
+  src: string
+}

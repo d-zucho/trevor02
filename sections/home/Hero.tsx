@@ -27,7 +27,7 @@ const HomeHero = () => {
                 <span className='block text-neon-green'>ultimate</span>
                 potential
               </h1>
-              <p className='text-muted-foreground w-md py-5'>
+              <p className='text-muted-foreground w-md py-5 leading-relaxed'>
                 Elite personal training designed for champions. Build
                 muscle,burn fat, and achieve the physique you've always dreamed
                 ofwith scientifically-proven methods and personalized coaching.
