@@ -1,6 +1,7 @@
 import Badge from '@/components/Badge'
 import MaxWidthWrapper from '@/components/MaxWidthContainer'
 import SectionHeader from '@/components/SectionHeader'
+import SuccessCTA from '@/components/SuccessCTA';
 import { AnimatedTestimonials } from '@/components/ui/animated-testimonials';
 import { TTestimonial } from '@/lib/types';
 
@@ -43,7 +44,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section className='py-24 bg-dark-card'>
+    <section className='py-24 px-2 bg-dark-card'>
       <MaxWidthWrapper>
         <Badge className='mx-auto!'>Success Stories</Badge>
         <div className='flex flex-col items-center'>
@@ -54,9 +55,12 @@ const Testimonials = () => {
             See how our clients have transformed their lives with our programs. Read their success stories and learn how they have achieved their goals.
           </p>
         </div>         
-        <div>
-          <AnimatedTestimonials testimonials={testimonials} autoplay />
-        </div>                                         
+        <div className='mt-10'>
+          <AnimatedTestimonials testimonials={testimonials}  />
+        </div>     
+        <div className='mt-24'>
+          <SuccessCTA />       
+        </div>                             
       </MaxWidthWrapper>
     </section>
   )

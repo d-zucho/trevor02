@@ -39,7 +39,8 @@ const HomeHero = () => {
                   className={buttonVariants({ size: 'lg', variant: 'default', className: 'group' })}
                 >
                   Start Your Journey
-                  <ArrowRight className='size-5 group-hover:translate-x-2 transition-all ease-in-out' />
+                  {/* <ArrowRight className='size-5 group-hover:translate-x-2 transition-all ease-in-out' /> */}
+                  <ArrowRight className='size-5 move-arrow' />
                 </Link>
                 <Link
                   href={'/'}
